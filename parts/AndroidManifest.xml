@@ -148,6 +148,11 @@
         </service>
 
         <service
+            android:name=".doze.PocketService"
+            android:permission="PocketService">
+        </service>
+
+        <service
             android:name=".camera.NfcCameraService"
             android:permission="NfcCameraService">
         </service>
