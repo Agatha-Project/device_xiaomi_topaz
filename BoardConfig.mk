@@ -65,6 +65,9 @@ SOONG_CONFIG_ufsbsg_ufsframework := bsg
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := bengal
 
+# Board Info
+TARGET_BOARD_INFO_FILE := $(DEVICE_PATH)/board-info.txt
+
 # Build
 BUILD_BROKEN_VENDOR_PROPERTY_NAMESPACE := true
 BUILD_BROKEN_CLANG_PROPERTY := true
