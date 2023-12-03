@@ -1,0 +1,6 @@
+runtime_resource_overlay {
+    name: "SettingsProviderTopaz",
+    theme: "SettingsProviderTopaz",
+    sdk_version: "current",
+    vendor: true,
+}
