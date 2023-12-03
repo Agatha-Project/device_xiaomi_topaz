@@ -1353,6 +1353,12 @@ vendor/lib64/qtiPeripheralMgr.so
 # Power
 vendor/etc/public.libraries.txt
 
+# Protobuf
+vendor/lib/libprotobuf-cpp-full-3.9.1.so
+vendor/lib/libprotobuf-cpp-lite-3.9.1.so
+vendor/lib64/libprotobuf-cpp-full-3.9.1.so
+vendor/lib64/libprotobuf-cpp-lite-3.9.1.so
+
 # QCC
 vendor/lib64/hw/vendor.qti.hardware.qccvndhal@1.0-impl.so
 vendor/lib64/libqcc_file_agent.so
