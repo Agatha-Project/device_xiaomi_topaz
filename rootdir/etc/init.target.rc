@@ -326,3 +326,15 @@ on property:persist.sys.cota.carrier=OR
 #add for btmac property
 on property:persist.ro.ril.oem.btmac=*
   setprop ro.ril.oem.btmac ${persist.ro.ril.oem.btmac}
+
+on property:persist.sys.topaz.dt2w=0
+    # topaz
+    exec /system/bin/sendevent /dev/input/event5 0 1 4
+    # tapas
+    exec /system/bin/sendevent /dev/input/event4 0 1 4
+
+on property:persist.sys.topaz.dt2w=1
+    # topaz
+    exec /system/bin/sendevent /dev/input/event5 0 1 5
+    # tapas
+    exec /system/bin/sendevent /dev/input/event4 0 1 5

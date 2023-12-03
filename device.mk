@@ -195,6 +195,10 @@ PRODUCT_PACKAGES += \
     android.hardware.drm-V1-ndk.vendor \
     libdrm.vendor
 
+# DT2W
+PRODUCT_PACKAGES += \
+    DT2W-Service-Topaz
+
 # Fastbootd
 PRODUCT_PACKAGES += \
     android.hardware.fastboot@1.1-impl-mock \
