@@ -5,6 +5,6 @@
 //
 
 runtime_resource_overlay {
-    name: "WifiResCommon",
+    name: "TetheringResCommon",
     product_specific: true,
 }

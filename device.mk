@@ -392,8 +392,8 @@ PRODUCT_PACKAGES += \
     SystemUIResTopaz \
     TelecommResCommon \
     TelephonyResCommon \
-    WifiResCommon \
-    WifiResTarget
+    TetheringResCommon \
+    WifiOverlayTopaz
 
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
