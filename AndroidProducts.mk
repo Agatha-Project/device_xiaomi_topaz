@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_topaz.mk
+    $(LOCAL_DIR)/cherish_topaz.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_topaz-user \
-    aosp_topaz-userdebug \
-    aosp_topaz-eng
+    cherish_topaz-user \
+    cherish_topaz-userdebug \
+    cherish_topaz-eng
